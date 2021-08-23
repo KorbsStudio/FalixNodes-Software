@@ -1,0 +1,75 @@
+/* Content */
+t2p#page-news::before {content: "Haberler";}
+t2p#page-client_panel::before {content: "Müsteri Paneli";}
+t2p#page-game_panel::before {content: "Oyun Paneli";}
+t2p#page-falixcoins_mining::before {content: "FalixCoin Kazma";}
+t2p#page-support::before {content: "Destek";}
+t2p#page-help_center::before {content: "Yardım Merkezi";}
+t2p#page-settings::before {content: "Ayarlar";}
+
+t2p#nd-Opening-in-brower::before {content: "Tarayıcıda aç";}
+t2p#netork_connection-lost::before {content: "Bağlantı Koptu";}
+t2p#netork_connection-restored::before {content: "Tekrar Bağlanıldı";}
+
+t2p#h1-settings::before {content: "Tercihler";}
+t2p#h2-app::before {content: "Uygulama";}
+t2p#fs-language::before {content: "Dil";}
+t2p#fs-devMode::before {content: "Geliştirici Modu";}
+t2p#fs-appearance::before {content: "Görünümler";}
+tp2#fs-ac::before {content: "Tema Rengi";}
+tp2#fs-oo::before {content: "Diğer Seçenekler";}
+tp2#fs-adv::before {content: "Gelişmiş";}
+tp2#fs-reset::before {content: "Sıfırla";}
+t2p#tog-devMode::before {content: "Geliştirici Modunu DevreyeAal";}
+t2p#tog-rc::before {content: "Yuvarlatılmış Köşeler";}
+t2p#tog-ts::before {content: "Yan Menü Opaklığı";}
+
+t2p#gp_unl-h1::before {content: "Oyun Paneli";}
+tp2#gp_unl-p::before {content: "Oyun paneli, masaüstü uygulamasının kullandığı sistem kaynaklarını en aza indirmek için Oyun Panelini kendinden yüklemez.";}
+tp2#gp_unl-button::before {content: "Yüklemek için tıklayın.";}
+
+/* Front-End, show that the option for the language was selected in the settings */
+button#lang_sel_do_en {
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px transparent solid;
+}
+
+button#lang_sel_do_tr {
+    background: var(--accent);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px white solid;
+}
+
+button#lang_sel_do_es {
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px transparent solid;
+}
+button#lang_sel_do_fr {
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px transparent solid;
+}
+button#lang_sel_do_cn {
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px transparent solid;
+}
+button#lang_sel_do_hn {
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px transparent solid;
+}

@@ -36,6 +36,13 @@ button#lang_sel_do_en {
     border-radius: 4px;
     border: 1px white solid;
 }
+button#lang_sel_do_tr {
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px transparent solid;
+}
 button#lang_sel_do_es {
     background: transparent;
     color: white;
